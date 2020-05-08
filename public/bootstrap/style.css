@@ -1,0 +1,65 @@
+
+.menu ul li{float: left;display: inline-block;list-style:none;padding: 18px;}
+.menu ul li a{text-decoration: none;padding: 8px;}
+.menu ul li a:hover{font-style: none;background: #316DC3;color: #fff;border-radius: 10px 10px 10px 10px;}
+.fab{font-size: 42px;background: transparent;margin: 4px;}
+.fa-facebook-square,.fa-twitter-square{color: white;}
+.fa-instagram-square,.fa-youtube-square{color: red;}
+.fa-whatsapp-square{color: green;}
+
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+.card-media{padding:12px;width:  230px !important;padding-top: 12px;}
+.card-media h5{padding-top: 18px;}
+.event{margin-left: 18px;padding-left: 18px;}
+.content h1{text-align: center;}
+/*.content{border:2px solid red;float: left;width: 80%;margin-left: 128px;background: #F7F8FA;}*/
+.content section{text-align: justify;}
+.content p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;line-height: 1.9;font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 22px;
+}
+.welfare{height: auto; !important;padding-top: 62px !important;}
+.parallax {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-position: top center;
+}
+.card-img-top{width: 60px !important;padding-top: 38px !important;}
+.bg{background: #2655E8;}
+.bg h4{color: #fff;font-weight: 400 !important;font-family: 'Merriweather', serif;}
+.pad{margin-top: 12px;}
+.foot li{text-decoration: none;list-style: none;color: #fff;}
+.foot address,h5{color: #fff;}
+.pad h5{color: black;text-align: center;}
